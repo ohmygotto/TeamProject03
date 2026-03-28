@@ -1,4 +1,4 @@
-// MyActor.cpp
+// MyAactor.cpp
 
 
 #include "MyActor.h"
@@ -13,13 +13,13 @@ void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Warning, TEXT("AMyActor has begun play!"));
+	//UE_LOG(LogTemp, Warning, TEXT("AMyActor has begun play!"));
 }
 
 void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	UE_LOG(LogTemp, Warning, TEXT("AMyActor is ticking!"));
+	//UE_LOG(LogTemp, Warning, TEXT("AMyActor is ticking!"));
 }
 
